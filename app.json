@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "wordlrepl",
+    "slug": "wordlrepl",
+    "owner": "pandamarty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2a282a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pandamarty.wordlrepl"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
